@@ -1,0 +1,327 @@
+body {
+    background-image: url("/images/paper.png");
+    background-repeat: repeat-x;
+    font-family: Ubuntu Medium  !important; 
+} 
+
+
+
+
+p.avatar>img {
+   
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+   width: 60%;
+   
+  
+}
+
+footer {
+  position: relative;
+  margin-top: -2.5em;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  background-color: #F8F8F8;
+ }
+ 
+
+ 
+ .fotline{
+     height:100px;
+     background-color: #1D50C6;
+    }
+ 
+ div.img img{
+    width:150px; 
+    
+    
+}
+
+.btn-fixed-bottom {
+    bottom: 10px;
+    display: none;
+    position: fixed;
+    right: 20px;
+}
+
+.blog {
+	
+   width: 100%;
+   position: relative;
+}
+
+.list1 {
+	
+	margin-left: auto;
+    margin-right: auto;
+   width: 90%;
+   position: relative;
+}
+
+.image{
+
+width: 70%;
+
+}
+
+
+ p {
+    text-indent: 20px; 
+   text-align: justify;
+   
+   }
+
+  h3{
+  	text-indent: 10px; 
+  
+  }
+  
+  h6{
+      margin-top: 33px;
+      font-size: 16px;
+      text-indent: 20px;
+  }
+  
+  h2{
+  	padding-left: 25px; 
+        font-size: 24px;
+  
+  }
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .data {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .data1{
+	width: 50%;
+	height: 50%;
+
+}
+
+.thumbnail .data sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+
+
+/*POST*/
+
+.panel-post {
+    position: relative;
+    border-radius: 0px;
+    border: 1px solid rgb(216, 216, 216);
+    font-family: 'Ubuntu', sans-serif;
+}
+.panel-post > .dropdown {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.panel-post > .dropdown > span > span {
+    font-size: 10px;   
+}
+.panel-post > .dropdown > .dropdown-menu {
+    left: initial;
+    right: 0px;
+    border-radius: 2px;
+}
+.panel-post > .panel-post-tags {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+.panel-post > .panel-post-tags > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel-post > .panel-post-tags > ul > li {
+    display: block;
+    right: 0px;
+    width: 0px;
+    padding: 5px 0px 5px 0px;
+    background-color: #A4BBF2;
+    font-size: 12px;
+    overflow: hidden;
+}
+.panel-post > .panel-post-tags > ul > li > a {
+    color: #000;
+    font-size: 14px;
+    overflow: hidden;
+}
+.panel-post > .panel-post-tags > ul > li ::after {
+    content:"";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+	
+}
+.panel-post > .panel-post-tags > ul:hover > li,
+.panel-post > .panel-post-tags > ul > li:first-child {
+    padding: 5px 15px 5px 10px;
+    width: auto;
+    cursor: pointer;
+    margin-left: auto;
+}
+.panel-post > .panel-post-tags > ul:hover > li {
+    background-color: rgb(255, 255, 255);   
+}
+.panel-post > .panel-post-tags > ul > li:hover {
+    background-color: rgb(66, 127, 237);
+    color: rgb(255, 255, 255);
+}
+.panel-post > .panel-heading,
+.panel-post > .panel-footer {
+    background-color: #f2f2ee;
+    border-width: 0px; 
+}
+.panel-post > .panel-heading {
+    margin-top: 20px;    
+    padding-bottom: 5px; 
+}
+.panel-post > .panel-heading > img { 
+    margin-right: 15px;
+}
+.panel-post > .panel-heading > h3 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.panel-post > .panel-heading > h5 {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+}
+.panel-post > .panel-body {
+    padding-top: 5px;
+    font-size: 13px;
+}
+.panel-post > .panel-body > .panel-post-image {
+    display: block;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(217, 217, 217);
+}
+.panel-post > .panel-body > .panel-post-image > img {
+    max-width: 100%;
+}
+
+.panel-post > .panel-footer {
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 54px;
+}
+.panel-post > .panel-footer > .btn {
+    float: left;
+    margin-right: 8px;
+}
+
+
+.panel-post > .panel-footer > .input-placeholder {
+   
+    margin-left: 5px;
+ 
+    
+}
+.panel-post.panel-post-show-comment > .panel-footer > .input-placeholder {
+    display: none;   
+}
+.panel-post > .panel-post-comment {
+    display: none;
+    padding: 10px 20px 15px;
+    border-top: 1px solid rgb(229, 229, 229);
+    background-color: rgb(245, 245, 245);
+}
+.panel-post.panel-post-show-comment > .panel-post-comment {
+    display: block;
+}
+/*.panel-post > .panel-post-comment > img {
+    float: left;   
+}*/
+.panel-post > .panel-post-comment > .panel-post-textarea {
+    float: right;
+    width: calc(100% - 56px);
+}
+.panel-post > .panel-post-comment > .panel-post-textarea > textarea {
+    display: block;
+    /*margin-left: 60px;
+    width: calc(100% - 56px);*/
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    resize: vertical;
+}
+.panel-post > .panel-post-comment > .panel-post-textarea > .btn {
+    margin-top: 10px;
+    margin-right: 8px;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .panel-post > .panel-post-comment > .panel-post-textarea > .btn {
+        width: auto;
+    }    
+}
+
+
+.panel-post .btn {
+    border-radius: 3px;   
+}
+.panel-post .btn-default {
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+}
+.panel-post .btn-default:hover, 
+.panel-post .btn-default:focus, 
+.panel-post .btn-default:active {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);    
+}
+
+/*Head*/
+
+.jumbotron {
+background: #1D50C6;
+color: #FFF;
+border-radius: 0px;
+}
+.post { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #D3D3D3;
+}
+.h1 small {
+font-size: 24px;
+}
